@@ -1,0 +1,16 @@
+{
+  "name": "byzantine-ghost",
+  "version": "1.0.0",
+  "description": "Byzantine Ghost",
+  "main": "index.js",
+  "author": "byzantine-network",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "ghost": "^1.22.4"
+  }
+}
